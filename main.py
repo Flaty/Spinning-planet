@@ -1,5 +1,5 @@
 from time import sleep
-print()
+print('\u001b[2A')
 print("""\u001b[34m                   _-o#&&*''''?d:>b\\_
               _o/'`''  '',, dMF9MMMMMHo_
            .o&#'        `'MbHMMMMMMMMMMMHo.
