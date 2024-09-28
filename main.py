@@ -1,5 +1,6 @@
 from time import sleep
-print('\u001b[2A')
+print('\033[2J')
+print('\u001b[10A')
 print("""\u001b[34m                   _-o#&&*''''?d:>b\\_
               _o/'`''  '',, dMF9MMMMMHo_
            .o&#'        `'MbHMMMMMMMMMMMHo.
@@ -22,7 +23,7 @@ print("""\u001b[34m                   _-o#&&*''''?d:>b\\_
           `&.                             .
             `~,   .                     ./
                 . _                  .-PP
-                  '`--._,dd###pp='''""",end=" ")
+                  '`--._,dd###pp='''""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -48,7 +49,7 @@ print("""                  .ovr:HMM#?:`' >b\\_
           -. `9M:                          .'
             -. `b,,    .                . '
               '-\\   .,               .-`
-                  '-:b~\\\\_,oddq==--'""",end=" ")
+                  '-:b~\\\\_,oddq==--'""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -74,7 +75,7 @@ print("""                  _oo##'9MMHb':'-,o_
           .           `MM*                . '
             -.         #M: .    .       .-
               ` .         .,         .-
-                  '-.-~ooHH__,,v~--`""",end=" ")
+                  '-.-~ooHH__,,v~--`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -100,7 +101,7 @@ print("""                  _,\\?dZkMHF&$*q#b..
           -                  |MM'          .'
            `.                &M'..  .   ..'
               ' .             ._     .-
-                  '-. -voboo#&:,-.-`""",end=" ")
+                  '-. -voboo#&:,-.-`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -126,7 +127,7 @@ print("""                  _\\oo\\?ddk9MRbS>v\\_
           \\.                       .dH'    .'
             -.                    ,M'-  ..'
               ` .                .. ..-`
-                  '-. .\\ooooboo<^.-`""",end=" ")
+                  '-. .\\ooooboo<^.-`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -152,7 +153,7 @@ print("""                  _o\\:,??\\??MR9#cb\\_
          `- `| -                        ,&':
            `.                         ,/\\ '
               '-..                  _.-
-                  '---.._\\o,oov+--''""",end=" ")
+                  '---.._\\o,oov+--''""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -178,7 +179,7 @@ print("""                  _,oc>?_:b?o?HH#b\\_
           . `    {!                        /
             -                           ,-'
               ' .                    .-
-                 ```^==\\_.,,,ov--\\-`""",end=" ")
+                 ```^==\\_.,,,ov--\\-`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -204,7 +205,7 @@ print("""                  _,o#bH\\??::?o?cbo_
           .      `     ,/'                 .'
            ` .                          ..'
                - .                  ..-
-                  '`*#d##c.._\\v----`""",end=" ")
+                  '`*#d##c.._\\v----`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -230,7 +231,7 @@ print("""                  _oo#H&d#b?\\b:_>>\\_
           -            `'     v/'          .'
            `-                           ..'
               ' .                    .-
-                  '`*##HMH##:__,-.-`""",end=" ")
+                  '`*##HMH##:__,-.-`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -256,7 +257,7 @@ print("""                  _,dd#HMb&dHo?\\?:\\_
           .                    '    ,/'    .'
            `..                          ..'
               `  .                   .-
-                  '`'#HHMMMMM#<>..-`""",end=" ")
+                  '`'#HHMMMMM#<>..-`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -282,7 +283,7 @@ print("""                  _,,>#b&HMHd&&bb>\\_
          `                           '' .-'.
            `.                           .-
               '- .                   .-`
-                  '`\\bqHMMMMMMHHb--`""",end=" ")
+                  '`\\bqHMMMMMMHHb--`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -308,7 +309,7 @@ print("""                  _,<_:&S6dHHHb&bb\\_
           -                              -'/
            ` .                          . '
               ` .                    . `
-                  '--##HH#HMMMHH#''`""",end=" ")
+                  '--##HH#HMMMHH#''`""")
 sleep(1)
 print('\033[2J') 
 print('\u001b[100A')
@@ -334,7 +335,7 @@ print("""                  .-:?,Z?:&$dHH##b\\_
           -                               . '
            ` .               -          .-
               ` .                    .-
-                  ' -==pHMMH##HH#'''""",end=" ")
+                  ' -==pHMMH##HH#'''""")
 sleep(1)
 print('\u001b[0m')
 print('\033[2J') 
